@@ -1,12 +1,27 @@
 body {
     font-family: arial, sans-serif;
     font-size: 13px;
+    color: #222;
+}
+
+a:link {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #222;
 }
 
 .navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .general li, .user li{
@@ -26,5 +41,11 @@ body {
 
 .logo {
     display: inline-block;
-    top: 100px;
+    top: 150px;
+    left: 33.5%;
+    position: relative;
+}
+
+.language a {
+    color: blue;
 }
