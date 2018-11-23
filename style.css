@@ -17,16 +17,35 @@ a:visited {
     color: #222;
 }
 
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    background-color: #f2f2f2;
+    bottom: 50px;
+}
+
+footer li {
+    display: inline-block;
+    padding: 15px 11px;
+    margin: auto;
+}
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
     position: relative;
+    background-color: white;
 }
 
 .general li, .user li{
     display: inline-block;
-    padding: 4px;
+    padding: 15px 11px;
     margin: auto;
     background-color: white;
 }
@@ -42,10 +61,34 @@ a:visited {
 .logo {
     display: inline-block;
     top: 150px;
-    left: 33.5%;
-    position: relative;
+    left: 40%;
+    position: absolute;
+}
+
+input[type=search] {
+    box-sizing: border-box;
+    box-shadow: #222 1.5em;
+    width: 30%;
+    height: 40px;
+    left: 35%;
+    top: 300px;
+    position: absolute;
+    -webkit-appearance: textfield;
+    
 }
 
 .language a {
     color: blue;
+}
+
+.footer-top li {
+    bottom: 50px;
+}
+
+.footer-bottom-left li {
+    float: left;
+}
+
+.footer-bottom-right li {
+    float: right;
 }
