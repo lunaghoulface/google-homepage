@@ -1,3 +1,8 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
 .navigation ul {
     list-style-type: none;
     margin: 0;
@@ -5,8 +10,10 @@
 }
 
 .general li, .user li{
-    display: inline;
+    display: inline-block;
     padding: 4px;
+    margin: auto;
+    background-color: white;
 }
 
 .general li {
@@ -15,4 +22,9 @@
 
 .user li {
     float: right;
+}
+
+.logo {
+    display: inline-block;
+    top: 100px;
 }
