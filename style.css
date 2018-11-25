@@ -90,7 +90,7 @@ input[type=search] {
 }
 
 input[type=button] {
-    color: #969494;
+    color: #848383;
     border: none;
     font-size: 13px;
     font-weight: bold;
@@ -100,6 +100,24 @@ input[type=button]:hover {
     color: black;
     border: 1px;
     border-color: #222;
+}
+
+input[value="Google Search"]{
+    position: absolute;
+    left: 40%;
+    top: 380px;
+}
+
+input[value="I'm Feeling Lucky"]{
+    position: absolute;
+    right: 40%;
+    top: 380px;
+}
+
+.language {
+    position: absolute;
+    top: 425px;
+    left: 45%;
 }
 
 .language a {
