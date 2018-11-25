@@ -7,3 +7,6 @@ This is my first project as part of the Odin Project Web Development curriculum.
 What I've learned
 
 On completion of this project, I've learned to use Google search effectively, get comfortable with experimenting, and how to navigate the developper tools efficiently (as a last resort). I've also become a lot more comfortable using Git. While the page is not perfect, I am very happy with the result!
+
+See the end result:
+https://lunaghoulface.github.io/google-homepage/
